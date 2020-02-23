@@ -1,11 +1,11 @@
 # Site settings
-author: Ruth Tafesework Kebede
-title: 
+author: Ruth K.
+title: Coding:
 header-img: img/home-bg.png
 email: rutht.kebede@gmail.com
-copyright_name: Ruth Tafesework Kebede
+copyright_name: Ruth K.
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Ruth Edition
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Rkebede
