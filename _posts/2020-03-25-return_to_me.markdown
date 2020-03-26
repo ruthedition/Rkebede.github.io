@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Return to me"
-date:       2020-03-26 02:38:18 +0000
+date:       2020-03-25 22:38:19 -0400
 permalink:  return_to_me
 ---
 
@@ -10,7 +10,7 @@ You learn about `puts` and you learn about `prints`, and you kind of learn about
 
 Going through the lessons, several times you are asked to explicitly type out `puts` or `print`  and you very clearly know what is about to happen when you run that test. Well, no one tells you to explicitly type out `return`; sometimes you see it, sometimes you don't. 
 
-#### Is that what I wanted... 
+## Is that what I wanted... 
 
 In Procedural Ruby, returns, as important as they are, can be a sutble concept that can often go over looked because of their sometimes implicent nature.
 
@@ -20,7 +20,7 @@ It can be great because you always get something back, and on occasion that will
 
 It took me a while to wrap my head around the idea, that returns are just the output of the method in the form of a data type. Once you know what you want from your method, understanding what is being returned makes so much more sense.
 
-#### That's what I wanted! 
+## That's what I wanted! 
 
 So what can we do to prevent these unfortunate instances when Ruby returns `nil` or  the last line instead of our intended line. You write that return, no one can stop you! 
 
