@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Project"
-date:       2020-04-11 05:26:43 +0000
+date:       2020-04-11 01:26:44 -0400
 permalink:  cli_project
 ---
 
@@ -9,11 +9,11 @@ As I write this blog post, I have confidently pushed up the last bit of edits fo
 
 This project gave me a way to tie together everything I have learned, and more importantly realize that I know WAAAAYYY more than the Ruth from six weeks ago. 
 
-#### Using an API
+### Using an API
 
 For my CLI I used the [Open Weather API](https://openweathermap.org/api) to allow users to enter their zip code and get back the weather forecast for the day. Getting the API key and navigating the Open Weather website was not as terrifying as I expected, especially with how detailed docs on each of their API options are. I did have to learn how to hide my API key, but again, not as bad as it seems.
 
-#### Preparation  
+### Preparation  
 I didn’t realize how much preparation is needed for all of the components of coding that happen behind the scene. You need to install gems, edit your file tree, and make sure everything is installed and in its place before you even write your code. Thankfully the videos we were given provided a lot of guidance, and bundle install is a life saver.
 
 Once my environment was ready and I had my API, I thought I would be able to dive right in and just write code and bam lab complete; well that is definitely not how it went. 
