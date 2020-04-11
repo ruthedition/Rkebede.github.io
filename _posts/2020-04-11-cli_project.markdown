@@ -74,12 +74,12 @@ def self.call_api(zipcode)
  end 
 ```
 
-#### Refactoring
+### Refactoring
 Once I was done with the functionality of my app, then came refactoring and cleaning things up. Thinking it was a requirement, I put together a flow diagram. It was one of the last things I did, and I'm glad I did. While working through how to draw out the flow of my app, I quickly became frustrated by all of my overlapping arrows. There was no clean flow to how my app functioned; it was practically a rollercoaster. So I began to move  things around in my flow diagram and as I continued to shift excess arrows began disappearing and my flow started to simplify. As I adjusted my flow I adjusted my code to follow and I began seeing my code shrink. All the repetitive calls on methods were streamlined into other methods. By the time I finished my flow diagram I realized I had basically been refactoring just not in the traditional sense of going in and cleaning up code.
 
 ![Refactored Weather CLI Flow diagram](https://i.ibb.co/HF157d4/Untitled-Diagram.png)
 
-#### Submitting 
+### Submitting 
 It felt very strange getting ready to submit my project. I did not know if my CLI was truly done. There is always the question of could I have done more, or is there a better way I could have written what I have done. Honestly, there probably is, but isn’t that the beauty of being able to create something from scratch?
 
 
