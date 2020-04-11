@@ -58,7 +58,7 @@ To change that I need to describe what I am requesting in addition to my base ur
 
 `response = HTTParty.get(BASE_URL, query: params)`
 
-I think the most difficult thing I came across was wrapping my head around the idea that even though the JSON response looks like it comes in as a hash (snippet above), it actually comes in as a string which needs to be parsed and returned as a hash. So, I used `JSON.parse` to get the job done. I was able to call `.body` to retrieve the contents from the response and turn the keys into symbols with `symbolize_names: true` which ultimately gives me a hash I can use.
+I think the most difficult thing I came across was wrapping my head around the idea that even though the JSON response looks like it comes in as a hash (snippet above), it actually comes in as a string which needs to be parsed and returned as a hash. So, I used `JSON.parse` to get the job done. I was able to call `.body` to retrieve the contents from the response and turn the keys into symbols with `symbolize_names:` true which ultimately gives me a hash I can use.
 
 `JSON.parse(response.body, symbolize_names: true)`
 
